@@ -9,6 +9,7 @@ z-index:2;
 border:1px solid #eee;
 box-shadow: 0 10px 40px -10px rgba(0,64,128,.09);
 transition:0.3s;
+margin: 2%;
 }
 
 .container-main{
@@ -74,7 +75,7 @@ transform: translate(0, -10px);
   color: white;
 	font-weight: 500;
 	font-size: 50px;
-	margin-bottom: 0px;
+	margin-right: 2%;
 }
 .single-pricing{}
 .single-pricing h5 {
@@ -87,7 +88,7 @@ transform: translate(0, -10px);
 list-style: none;
 margin-bottom: 20px;
 margin-top: 30px;
-padding-left: 10%;
+padding-left: 9%;
 }
 .single-pricing li{
   text-align: center;
