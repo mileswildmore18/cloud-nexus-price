@@ -10,6 +10,30 @@ border:1px solid #eee;
 box-shadow: 0 10px 40px -10px rgba(0,64,128,.09);
 transition:0.3s;
 }
+
+.container-main{
+  overflow: hidden;
+}
+
+.price-title {
+  color: white;
+  background-color: #36628c;
+  margin:0;
+  padding: 0;
+}
+
+.speech{
+  background-color: #36628c;
+  color: white;
+  margin:0;
+  padding: 0;
+}
+
+.row{
+  background-color: #36628c;
+  padding: 15px;
+}
+
 @media only screen and (max-width:480px) { 
 .single-pricing {margin-bottom:30px;}
 }
@@ -63,6 +87,7 @@ transform: translate(0, -10px);
 list-style: none;
 margin-bottom: 20px;
 margin-top: 30px;
+padding-left: 10%;
 }
 .single-pricing li{
   text-align: center;
@@ -75,11 +100,12 @@ margin-top: 30px;
 .single-pricing ul li{
   color: white;
   line-height: 35px;}
+
 .single-pricing a {
 background:#f7fafc;
-border: 2px solid #ffaa17;
+border: 2px solid #36628c;
 border-radius: 5000px;
-color: #ffaa17;
+color: #36628c;
 display: inline-block;
 font-size: 16px;
 overflow: hidden;
@@ -90,7 +116,7 @@ transition: all 0.3s ease 0s;
 .single-pricing a:hover, .single-pricing a:focus{
 background:#a8c2dc;
 color:#fff;
-border: 2px solid #ffaa17;
+border: 2px solid #36628c;
 }
 .single-pricing-white{background: #232434}
 .single-pricing-white ul li{color:#fff;}
@@ -98,6 +124,10 @@ border: 2px solid #ffaa17;
 .single-pricing-white h1{color:#fff;}
 .single-pricing-white h5{color:#fff;}
 
+.container {
+  background-color: white;
+  overflow: hidden;
+}
 
 /* RESPONSIVE CSS
   -------------------------------------------------- */
