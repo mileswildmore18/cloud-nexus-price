@@ -14,10 +14,6 @@
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     rel="stylesheet"
   />
-  <link
-    href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
-    rel="stylesheet"
-  />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   
   <!-- Main section for the pricing starts here -->
@@ -98,14 +94,14 @@
         <!--- Second pricing column ends here -->	
 
 		  </div>
-      <!--- Properties for the 2 columns ends here -->
+      <!--- Properties for the two columns ends here -->
 
 	  </div>
     <!--- Container for the prices ends here -->
 
   </section>
   <!-- Pricing section ends here -->
-   
+
 </div>
   <!-- Main container for the pricing section ends here -->
 <?php include_once('./footer.php'); ?>
