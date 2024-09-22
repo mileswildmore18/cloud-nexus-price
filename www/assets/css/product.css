@@ -1,125 +1,18 @@
-/* Main container for pricing section */
-.container-main{
-  overflow: hidden;
+/* Properties for the background of phone number and phone icon */
+.p-2 {
+  background-color: #36628C;
+  border-radius: 15px;
+  margin-left: 1%;
+  padding-bottom: 3px;
 }
 
-/* Properties for columns for each price available */
-.single-pricing{
-background:#0c2440;
-padding:40px 20px;
-border-radius:5px;
-position:relative;
-z-index:2;
-border:1px solid #eee;
-box-shadow: 0 10px 40px -10px rgba(0,64,128,.09);
-transition:0.3s;
-margin: 2%;
+/* Properties for alignment of "Talk to an Expert" link */
+header a {
+ display: flex;
+ padding-right: 5%;
 }
 
-/* Title of the pricing section */
-.price-title {
-  color: white;
-  background-color: #36628c;
-  margin:0;
-  padding: 0;
-}
-
-/* Properties for summary of pricing section below title */
-.speech{
-  background-color: #36628c;
-  color: white;
-  margin:0;
-  padding: 0;
-}
-
-/* Properties for the background of pricing */
-.row{
-  background-color: #36628c;
-  padding: 15px;
-}
-
-/* Properties of columns when cursor hovers over them */
-.single-pricing:hover{
-box-shadow:0px 60px 60px rgba(0,0,0,0.1);
-z-index:100;
-transform: translate(0, -10px);
-}
-
-/* Title of each column */
-.price-head h2 {
-  color: white;
-	font-weight: 600;
-	margin-bottom: 0px;
-	text-transform: capitalize;
-	font-size: 26px;
-}
-
-/* Span dots under title of each column */
-.price-head span {
-	display: inline-block;
-	background:#a8c2dc;
-	width: 6px;
-	height: 6px;
-	border-radius: 30px;
-	margin-bottom: 20px;
-	margin-top: 15px;
-}
-
-/* Title for pricing option of each column */
-.price {
-  color: white;
-	font-weight: 500;
-	font-size: 50px;
-	margin-right: 2%;
-}
-
-/* H5 properties for "Monthly" */
-.single-pricing h5 {
-  color: white;
-	font-size: 14px;
-	margin-bottom: 0px;
-	text-transform: uppercase;
-}
-
-/* Unordered list alignment properties */
-.single-pricing ul{
-list-style: none;
-margin-bottom: 20px;
-margin-top: 30px;
-padding-left: 9%;
-}
-
-/* List alignment properties */
-.single-pricing li{
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 10%;
-}
-
-/* Unordered list color and spacing height */
-.single-pricing ul li{
-  color: white;
-  line-height: 35px;}
-
-/* Properties of the "Get Started" link for specific pricing column */
-.single-pricing a {
-background:#f7fafc;
-border: 2px solid #36628c;
-border-radius: 5000px;
-color: #36628c;
-display: inline-block;
-font-size: 16px;
-overflow: hidden;
-padding:10px 45px;
-text-transform: capitalize;
-transition: all 0.3s ease 0s;
-}
-
-/* Properties of "Get Started" link when mouse cursor hovers over link */
-.single-pricing a:hover, .single-pricing a:focus{
-background:#a8c2dc;
-color:#fff;
-border: 2px solid #36628c;
+/* Properties for "Get Started" link */
+a:link {
+ text-decoration: none;
 }

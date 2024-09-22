@@ -59,6 +59,8 @@
 						  <li>50GB Disk Space</li>
 						  <li>50 Email Accounts</li>
 					  </ul>
+            <!-- Unordered list ends here -->
+
 					  <a href="#">Get started</a>
 				  </div>
 			  </div>
@@ -93,13 +95,17 @@
 					  <a href="#">Get started</a>
 				  </div>
 			  </div>
-        <!--- Second pricing column ends here -->		  
+        <!--- Second pricing column ends here -->	
+
 		  </div>
       <!--- Properties for the 2 columns ends here -->
+
 	  </div>
     <!--- Container for the prices ends here -->
+
   </section>
   <!-- Pricing section ends here -->
+   
 </div>
   <!-- Main container for the pricing section ends here -->
 <?php include_once('./footer.php'); ?>
