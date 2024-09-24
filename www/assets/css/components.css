@@ -22,25 +22,22 @@
  /* Title of the pricing section */
  .price-title {
    color: white;
-   background-color: #36628c;
    margin:0;
    padding: 0;
  }
  
  /* Properties for summary of pricing section below title */
  .speech{
-   background-color: #36628c;
    color: white;
    margin:0;
    padding: 0;
  }
  
  /* Properties for the background of pricing */
- .row{
+ .container-price{
    background-color: #36628c;
-   padding: 15px;
  }
- 
+
  /* Properties of columns when cursor hovers over them */
  .single-pricing:hover{
  box-shadow:0px 60px 60px rgba(0,0,0,0.1);
